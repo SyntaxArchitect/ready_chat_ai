@@ -10,7 +10,7 @@ const MessageList = () => {
     useEffect(() => {
         const fetchMessages = async () => {
             try {
-                const response = await axios.get('https://cors-anywhere.herokuapp.com/https://www.dev.readychatai.com/messages_json', {
+                const response = await axios.get('https://www.dev.readychatai.com/messages_json', {
                     headers: {
                         'Allow': 'GET, HEAD, OPTIONS',
                         'Content-Type': 'application/json',
